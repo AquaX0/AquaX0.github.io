@@ -1,0 +1,64 @@
+---
+title: "Limit Summary"
+date: 2025-02-27 12:27:00 +0000
+categories: [study, posts]
+tags: [Calculus]
+---
+
+1. What is a Limit?
+A limit describes the value that a function approaches as the input approaches a specific point. Limits are foundational in defining derivatives and continuity in calculus.
+
+2. Tangent Line Problem
+The tangent to a curve at a point is the line that just "touches" the curve at that point and has the same slope as the curve.
+
+To find the tangent line, we approximate its slope using secant lines between two points on the curve.
+
+As the second point approaches the first, the secant slope approaches the limit — the slope of the tangent line.
+
+3. The Velocity Problem
+Instantaneous velocity is the limit of average velocity over a shrinking time interval.
+
+For example, if s(t) = 4.9 * t^2 (position of a falling object), then the velocity at time t is found by taking the limit of [s(t + h) - s(t)] / h as h → 0.
+
+4. Formal Definition of a Limit
+We say that the limit of f(x) as x approaches a is L if the values of f(x) can be made arbitrarily close to L by taking x sufficiently close to a (but not equal to a).
+
+Written as:
+lim x→a f(x) = L
+
+5. One-Sided Limits
+Left-hand limit: lim x→a⁻ f(x)
+
+Right-hand limit: lim x→a⁺ f(x)
+
+The regular (two-sided) limit exists only if both one-sided limits exist and are equal.
+
+6. When Limits Do Not Exist
+If the function oscillates (e.g., sin(1/x) near x = 0).
+
+If there’s a jump (e.g., step functions like the Heaviside function).
+
+If the function approaches infinity (e.g., 1/x² as x → 0).
+
+7. Limit Laws (if lim x→a f(x) and lim x→a g(x) exist)
+Sum: lim x→a [f(x) + g(x)] = lim f(x) + lim g(x)
+
+Difference: lim x→a [f(x) - g(x)] = lim f(x) - lim g(x)
+
+Product: lim x→a [f(x) * g(x)] = lim f(x) * lim g(x)
+
+Quotient: lim x→a [f(x) / g(x)] = lim f(x) / lim g(x), provided lim g(x) ≠ 0
+
+8. Techniques to Evaluate Limits
+Direct substitution (if the function is continuous)
+
+Algebraic simplification (e.g., factoring, canceling, rationalizing)
+
+Use of tables or graphs to estimate behavior near the point
+
+9. Special Limits
+lim x→0 (sin x) / x = 1
+
+lim x→0 [sqrt(x^2 + 9) - 3] / x^2 = 1/6
+
+For piecewise functions, check both one-sided limits to determine the overall limit

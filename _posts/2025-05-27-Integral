@@ -1,0 +1,87 @@
+---
+title: "Integral Summary"
+date: 2025-05-27 12:27:00 +0000
+categories: [study, posts]
+tags: [Calculus]
+---
+
+1. Indefinite Integral (Integral Tak Tentu)
+The indefinite integral of a function is the anti-derivative, or the reverse of differentiation.
+
+If F'(x) = f(x), then F(x) is an anti-derivative of f(x).
+
+General form:
+∫ f(x) dx = F(x) + C
+Where:
+
+∫ is the integral sign
+
+f(x) is the integrand
+
+dx indicates integration with respect to x
+
+C is the constant of integration (any real number)
+
+Example:
+∫ 3x² dx = x³ + C
+
+2. Basic Integral Rules (Teorema Dasar)
+Power Rule (Teorema A):
+∫ x^r dx = x^(r+1) / (r+1) + C,  (r ≠ -1)
+
+Trig Integrals (Teorema B):
+∫ sin(x) dx = -cos(x) + C
+∫ cos(x) dx = sin(x) + C
+
+Linearity (Teorema C):
+∫ [af(x) + bg(x)] dx = a∫ f(x) dx + b∫ g(x) dx
+
+
+3. Substitution Method (Metode Substitusi)
+Used when the integrand is a composite function.
+
+Steps:
+
+1) Let u = g(x)
+
+2) Find du = g'(x) dx
+
+3) Replace and integrate: ∫ f(g(x))g'(x) dx = ∫ f(u) du
+
+Example:
+∫ 3x²(1 + x³)^5 dx
+Let u = 1 + x³ → du = 3x² dx
+Result: ∫ u^5 du = u^6 / 6 + C = (1 + x³)^6 / 6 + C
+
+4. Trigonometric Integrals
+Use trigonometric identities and substitution to simplify expressions like:
+∫ sin²(x) dx, ∫ sin(2x) dx, etc.
+Example:
+∫ sin(2x) dx = -½ cos(2x) + C
+
+
+5. Definite Integral (Integral Tentu)
+Represents the area under the curve of a function f(x) from a to b.
+
+Definition:
+∫ from a to b f(x) dx = F(b) - F(a)
+Where F is an anti-derivative of f.
+
+Example:
+∫ from 0 to 2 of x dx = [x²/2] from 0 to 2 = (2²/2) - (0²/2) = 2
+
+6. Properties of Definite Integrals
+Reversal of limits:
+∫ from b to a f(x) dx = - ∫ from a to b f(x) dx
+
+Additivity:
+∫ from a to c f(x) dx = ∫ from a to b f(x) dx + ∫ from b to c f(x) dx
+
+7. Applications
+- Area under a curve
+
+- Motion problems (velocity → position)
+
+- Physics (e.g. displacement, work)
+
+- Finding function rules from second/third derivatives and conditions
