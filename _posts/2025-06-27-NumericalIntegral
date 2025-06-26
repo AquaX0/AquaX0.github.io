@@ -15,7 +15,7 @@ The function is only known at discrete points (tabular data).
 It estimates the area under a curve using rectangles, trapezoids, or parabolas.
 
 2. Common Methods
-A. Rectangle Rule (Kaidah Segiempat)
+A. Rectangle Rule (Kaidah Segi empat)
 Approximate each strip as a rectangle.
 
 Left endpoint:
