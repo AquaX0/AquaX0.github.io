@@ -1,6 +1,6 @@
 ---
 title: "Numerical Integral Summary"
-date: 2025-06-27 12:27:00 +0000
+date: 2025-06-17 12:27:00 +0000
 categories: [study, posts]
 tags: [Calculus]
 ---
